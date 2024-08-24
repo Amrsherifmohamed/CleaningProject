@@ -348,3 +348,7 @@ obj
 packages
 **/failures.txt
 /obj/Debug/net8.0/project.razor.vs.bin
+/obj/Debug/net8.0/royaltjänstflytt.AssemblyInfo.cs
+/obj/Debug/net8.0/royaltjänstflytt.AssemblyInfoInputs.cache
+/obj/Debug/net8.0/royaltjänstflytt.assets.cache
+/obj/Debug/net8.0/royaltjänstflytt.GeneratedMSBuildEditorConfig.editorconfig
