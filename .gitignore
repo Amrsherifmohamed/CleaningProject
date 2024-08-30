@@ -357,3 +357,5 @@ packages
 /obj/project.assets.json
 /obj/royaltjänstflytt.csproj.nuget.dgspec.json
 /obj/project.nuget.cache
+/obj/royaltjänstflytt.csproj.nuget.g.props
+/obj/royaltjänstflytt.csproj.nuget.g.targets
