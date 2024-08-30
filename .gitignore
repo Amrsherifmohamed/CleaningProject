@@ -359,3 +359,4 @@ packages
 /obj/project.nuget.cache
 /obj/royaltjänstflytt.csproj.nuget.g.props
 /obj/royaltjänstflytt.csproj.nuget.g.targets
+/.vs/royaltjänstflytt/v17/DocumentLayout.json
