@@ -353,3 +353,7 @@ packages
 /obj/Debug/net8.0/royaltjänstflytt.assets.cache
 /obj/Debug/net8.0/royaltjänstflytt.GeneratedMSBuildEditorConfig.editorconfig
 /.config
+/.vs/royaltjänstflytt/v17/.suo
+/obj/project.assets.json
+/obj/royaltjänstflytt.csproj.nuget.dgspec.json
+/obj/project.nuget.cache
