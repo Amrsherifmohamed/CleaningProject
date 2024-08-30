@@ -1,7 +1,10 @@
+using royaltjänstflytt;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddPresistance(builder.Configuration);
 
 var app = builder.Build();
 
