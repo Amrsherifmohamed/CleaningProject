@@ -1,5 +1,141 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model royaltjänstflytt.Models.Move
+
+<form asp-action="CleaningSubmit" method="post">
+    <!-- Personal Information Section -->
+    <div class="form-group">
+        <label for="FirstName">Namn *</label>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Förnamn" required>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Efternamn" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email *</label>
+        <div class="row">
+            <div class="col">
+                <input type="email" class="form-control" id="Email" name="Email" placeholder="example@example.com" required>
+            </div>
+            <div class="col">
+                <label for="PhoneNumber">Telefonnummer</label>
+                <input type="tel" class="form-control" id="PhoneNumber" name="PhoneNumber" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="PersonalNumber">Personnummer</label>
+        <input type="text" class="form-control" id="PersonalNumber" name="PersonalNumber">
+    </div>
+
+    <!-- Services Section -->
+    <div class="form-group">
+        <label>Tjänst</label>
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="FlyttHjalp" name="Services" value="FlyttHjalp">
+                    <label class="form-check-label" for="FlyttHjalp">Flytthjälp</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="PackningNer" name="Services" value="PackningNer">
+                    <label class="form-check-label" for="PackningNer">Packning ner</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="MonteraNer" name="Services" value="MonteraNer">
+                    <label class="form-check-label" for="MonteraNer">Montera ner</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="Storstäd" name="Services" value="Storstäd">
+                    <label class="form-check-label" for="Storstäd">Storstäd</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="Flyttstäd" name="Services" value="Flyttstäd">
+                    <label class="form-check-label" for="Flyttstäd">Flyttstäd</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="PackaUpp" name="Services" value="PackaUpp">
+                    <label class="form-check-label" for="PackaUpp">Packa upp</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="MonteraUpp" name="Services" value="MonteraUpp">
+                    <label class="form-check-label" for="MonteraUpp">Montera upp</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="Hemstäd" name="Services" value="Hemstäd">
+                    <label class="form-check-label" for="Hemstäd">Hemstäd</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add-ons Section -->
+    <div class="form-group">
+        <label>Tillägg</label>
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="PackningKök" name="AddOns" value="PackningKök">
+                    <label class="form-check-label" for="PackningKök">Packning av köksutrustning - 1500 ;-</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="Packning30" name="AddOns" value="Packning30">
+                    <label class="form-check-label" for="Packning30">Packning av upp till 30 kartonger - 2500;-</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="Packning50" name="AddOns" value="Packning50">
+                    <label class="form-check-label" for="Packning50">Packning av upp till 50 kartonger - 3900;-</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Date and Time Section -->
+    <div class="form-group">
+        <label>Datum</label>
+        <input type="date" class="form-control" id="Date" name="Date">
+    </div>
+
+    <div class="form-group">
+        <label>Starttid</label>
+        <input type="time" class="form-control" id="StartTime" name="StartTime">
+    </div>
+
+    <!-- Address Section -->
+    <div class="form-group">
+        <label>Flyttar från</label>
+        <input type="text" class="form-control" id="FromAddress" name="FromAddress" placeholder="Gatuadress">
+        <input type="text" class="form-control mt-2" id="FromPostcode" name="FromPostcode" placeholder="Postnummer">
+        <input type="text" class="form-control mt-2" id="FromCity" name="FromCity" placeholder="Stad">
+    </div>
+
+    <div class="form-group">
+        <label>Flyttar till</label>
+        <input type="text" class="form-control" id="ToAddress" name="ToAddress" placeholder="Gatuadress">
+        <input type="text" class="form-control mt-2" id="ToPostcode" name="ToPostcode" placeholder="Postnummer">
+        <input type="text" class="form-control mt-2" id="ToCity" name="ToCity" placeholder="Stad">
+    </div>
+
+    <!-- Additional Information Section -->
+    <div class="form-group">
+        <label for="OtherInfo">Övrig information</label>
+        <textarea class="form-control" id="OtherInfo" name="OtherInfo" rows="4"></textarea>
+    </div>
+
+    <!-- File Upload Section -->
+    <div class="form-group">
+        <label for="FileUpload">Filöverföring - Ladda upp</label>
+        <input type="file" class="form-control-file" id="FileUpload" name="FileUpload">
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Skicka in</button>
+</form>
