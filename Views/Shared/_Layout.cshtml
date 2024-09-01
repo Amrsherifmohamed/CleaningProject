@@ -12,26 +12,27 @@
     <!-- Header Start -->
     <div class="container-fluid bg-warning">
         <div class="row align-items-center">
-            <div class="col-lg-3 d-none d-lg-block">
+            <div class="col-lg-2 d-none d-lg-block">
                 <a href="index.html" class="navbar-brand m-0 p-0 d-flex align-items-center justify-content-center text-dark">
-                    <h4 class="m-0 display-4">Royaltjänst</h4>
+                    <h7 class="m-0 display-4">Royal</h7>
                 </a>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-10">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <ul class="navbar-nav mx-auto">
+                          
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">HEM</a>
+                                <a href="~/Home/index" class="nav-item nav-link">HEM</a>
                             </li>
                             <li class="nav-item">
                                 <a href="~/Home/Flyttfirma" class="nav-item nav-link">FLYTTFIRMA</a>
                             </li>
                             <li class="nav-item">
-                                <a href="cleaning.html" class="nav-link">FLYTTSTÄDNING</a>
+                                <a href="@Url.Action("FLYTTSTÄDNING", "Home")" class="nav-link">FLYTTSTÄDNING</a>
                             </li>
                             <li class="nav-item">
                                 <a href="disposal.html" class="nav-link">BORTFORSLING AV SKRÄP</a>
@@ -52,7 +53,6 @@
                                 <a href="contact.html" class="nav-link">KONTAKT</a>
                             </li>
                         </ul>
-                        <a href="quote.html" class="btn btn-light text-dark d-none d-lg-block">Get A Quote</a>
                     </div>
                 </nav>
             </div>
