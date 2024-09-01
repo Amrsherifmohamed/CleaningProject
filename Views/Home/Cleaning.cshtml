@@ -1,6 +1,23 @@
 ﻿@model royaltjänstflytt.Models.Move
 
-<form asp-action="CleaningSubmit" method="post">
+<div class="container-fluid">
+
+
+    <iframe id="JotFormIFrame-242433004745045"
+            title="Här nedan kan du boka din flytthjälp och/eller flyttstäd online.   Vi erbjuder alltid 10% på bokningar online."
+            onload="window.parent.scrollTo(0,0)"
+            allowtransparency="true"
+            allow="geolocation; microphone; camera; fullscreen"
+            src="https://form.jotform.com/242433004745045"
+            frameborder="0"
+            style="min-width:100%;max-width:100%;height:539px;border:none;"
+            scrolling="no">
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-242433004745045']", "https://form.jotform.com/")</script>
+
+</div>
+@* <form asp-action="CleaningSubmit" method="post">
     <!-- Personal Information Section -->
     <div class="form-group">
         <label for="FirstName">Namn *</label>
@@ -138,4 +155,4 @@
 
     <!-- Submit Button -->
     <button type="submit" class="btn btn-primary">Skicka in</button>
-</form>
+</form> *@
