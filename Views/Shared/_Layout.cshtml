@@ -4,20 +4,21 @@
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/lib/owlcarousel/assets/owl.carousel.css" rel="stylesheet" />
     <link href="~/lib/owlcarousel/assets/owl.theme.default.css" rel="stylesheet" />
-
     <link href="~/lib/lightbox/css/lightbox.css" rel="stylesheet" />
     <link href="~/css/style.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
 </head>
 <body>
     <!-- Header Start -->
     <div class="container-fluid bg-warning">
         <div class="row align-items-center">
-            <div class="col-lg-3 d-none d-lg-block">
-                <a href="index.html" class="navbar-brand m-0 p-0 d-flex align-items-center justify-content-center text-dark">
-                    <h4 class="m-0 display-4">Royaltjänst</h4>
+            <div class="col-lg-2 d-none d-lg-block">
+                <a href="~/Home/index" class="navbar-brand m-0 p-0 d-flex align-items-center justify-content-center text-dark">
+                    <h7 style="padding-left:10%"  class="m-1 display-4"> Royaltjänst</h7>
                 </a>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-10">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -25,28 +26,13 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">HEM</a>
+                                <a href="~/Home/index" class="nav-item nav-link">HEM</a>
                             </li>
                             <li class="nav-item">
                                 <a href="~/Home/Flyttfirma" class="nav-item nav-link">FLYTTFIRMA</a>
                             </li>
                             <li class="nav-item">
-                                <a href="cleaning.html" class="nav-link">FLYTTSTÄDNING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="disposal.html" class="nav-link">BORTFORSLING AV SKRÄP</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="death.html" class="nav-link">DÖDSBO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="storage.html" class="nav-link">MAGASINERING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="checklist.html" class="nav-link">CHECKLISTA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link">OM OSS</a>
+                                <a href="@Url.Action("FLYTTSTÄDNING", "Home")" class="nav-link">FLYTTSTÄDNING</a>
                             </li>
                             <li class="nav-item">
                                 <a href="contact.html" class="nav-link">KONTAKT</a>
@@ -58,15 +44,13 @@
         </div>
     </div>
     <!-- Header End -->
-
     <!-- Back to Top -->
+
     <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
@@ -100,8 +84,8 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="font-weight-semi-bold text-primary mb-4">Kontakt</h4>
-                <p><i class="fa fa-envelope text-primary mr-2"></i>info@oneflyttstad.se</p>
-                <p><i class="fa fa-phone-alt text-primary mr-2"></i>011-180 333</p>
+                <p><i class="fa fa-envelope text-primary mr-2"></i>Info@royaltjänst.com</p>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>9999999999</p>
                 <p class="text-muted">Våra telefontider är måndag-fredag 08.00-17.00 samt lördag-söndag 9.00-16.00.</p>
             </div>
         </div>
@@ -113,25 +97,37 @@
             &copy; 2024 - royaltjänstflytt - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-
-    @* <script type="text/javascript" src="https://form.jotform.com/jsform/242432819323555"></script> *@
     <script src="~/lib/easing/easing.min.js"></script>
     <script src="~/lib/waypoints/waypoints.min.js"></script>
     <script src="~/lib/counterup/counterup.min.js"></script>
     <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="~/lib/isotope/isotope.pkgd.min.js"></script>
     <script src="~/lib/lightbox/js/lightbox.min.js"></script>
-    <!-- Template Javascript -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/owlcarousel/owl.carousel.js"></script>
     <script src="~/lib/counterup/counterup.min.js"></script>
     <script src="~/lib/lightbox/js/lightbox.js"></script>
-    <script src="~/lib/isotope/js/isotope.pkgd.js"></script> <!-- تأكد من أن هذا السطر موجود -->
+    <script src="~/lib/isotope/js/isotope.pkgd.js"></script>
     <script src="~/js/main.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            // Get current URL path
+            var path = window.location.pathname.toLowerCase();
+
+            // Find the corresponding nav-link and add the active class
+            $('.nav-link').each(function () {
+                var href = $(this).attr('href').toLowerCase();
+                if (path === href) {
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

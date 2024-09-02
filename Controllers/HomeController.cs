@@ -26,9 +26,12 @@ public class HomeController : Controller
         return View();
     }
 
-
-
     public IActionResult Cleaning()
+    {
+        return View();
+    }
+
+    public IActionResult FLYTTSTÄDNING()
     {
         return View();
     }
@@ -61,6 +64,9 @@ public class HomeController : Controller
     {
         return View();
     }
+
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

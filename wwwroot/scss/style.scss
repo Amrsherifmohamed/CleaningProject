@@ -294,6 +294,13 @@ h6,
     background-size: cover;
 }
 
+.bg-Moveing {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/moving.jpg), no-repeat center center;
+    background-size: cover;
+}
+
+
+
 .bg-portfolio {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-2.jpg), no-repeat center center;
     background-size: cover;
