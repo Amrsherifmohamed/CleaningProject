@@ -17,8 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\13456-987789456.png",
+      "PackagePath": "staticwebassets\\img\\13456-987789456.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\Royal Tjänst AB420.png",
+      "PackagePath": "staticwebassets\\img\\Royal Tjänst AB420.png"
+    },
+    {
       "Id": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\background-contracts.webp",
+      "PackagePath": "staticwebassets\\img\\background-contracts.webp"
     },
     {
       "Id": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\blog-1.jpg",

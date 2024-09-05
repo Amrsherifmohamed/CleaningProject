@@ -11,31 +11,72 @@
 </head>
 <body>
     <!-- Header Start -->
-    <div class="container-fluid bg-warning">
+    <div class="container-fluid ">
         <div class="row align-items-center">
-            <div class="col-lg-2 d-none d-lg-block">
+            <!-- Logo section -->
+            <div class="col-lg-3 bg-secondary d-none d-lg-block d-lg-flex">
                 <a href="~/Home/index" class="navbar-brand m-0 p-0 d-flex align-items-center justify-content-center text-dark">
-                    <h7 style="padding-left:10%"  class="m-1 display-4"> Royaltjänst</h7>
+                    <img src="~/img/Royal Tjänst AB420.png" alt="Royal Tjänst AB Logo" style="max-width: 70%; height: auto;">
                 </a>
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-9">
+                <div class="row bg-dark d-none d-lg-flex">
+                    <div class="col-lg-7 text-left text-white">
+                        <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
+                            <i class="fa fa-envelope text-primary mr-2"></i>
+                            <small>Info@royaltjänst.com</small>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                            <i class="fa fa-phone-alt text-primary mr-2"></i>
+                            <small>+99999999</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-right">
+                        <div class="d-inline-flex align-items-center pr-2">
+                            <a class="text-primary p-2" href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="text-primary p-2" href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="text-primary p-2" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="text-primary p-2" href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="text-primary p-2" href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation bar with larger font size -->
                 <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- Adjusted logo to show in mobile view as well -->
+                    <a href="~/Home/index" class="navbar-brand d-lg-none d-flex align-items-center justify-content-center text-dark">
+                        <img src="~/img/Royal Tjänst AB420.png" alt="Royal Tjänst AB Logo" style="max-width: 50%; height: auto;">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <ul class="navbar-nav mx-auto">
+                        <ul class="navbar-nav mx-auto" style="font-size: 1.2rem;">
+                            <!-- Increased font size -->
                             <li class="nav-item">
-                                <a href="~/Home/index" class="nav-item nav-link">HEM</a>
+                                <a href="~/Home/index" class="nav-item nav-link" style="padding: 10px 20px;">HEM</a> <!-- Increased padding -->
                             </li>
                             <li class="nav-item">
-                                <a href="~/Home/Flyttfirma" class="nav-item nav-link">FLYTTFIRMA</a>
+                                <a href="~/Home/Flyttfirma" class="nav-item nav-link" style="padding: 10px 20px;">FLYTTFIRMA</a> <!-- Increased padding -->
                             </li>
                             <li class="nav-item">
-                                <a href="@Url.Action("FLYTTSTÄDNING", "Home")" class="nav-link">FLYTTSTÄDNING</a>
+                                <a href="~/Home/FLYTTSTÄDNING"  class="nav-link" style="padding: 10px 20px;">FLYTTSTÄDNING</a> <!-- Increased padding -->
+                          </li>
+                            <li class="nav-item">
+                                <a href="~/Home/Dödsbö" class="nav-item nav-link" style="padding: 10px 20px;">Dödsbö</a> <!-- Increased padding -->
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link">KONTAKT</a>
+                                <a href="~/Home/BortforslingAvSkräp " class="nav-link" style="padding: 10px 20px;">Bortforsling av skräp </a> <!-- Increased padding -->
                             </li>
                         </ul>
                     </div>
@@ -43,6 +84,7 @@
             </div>
         </div>
     </div>
+
     <!-- Header End -->
     <!-- Back to Top -->
 

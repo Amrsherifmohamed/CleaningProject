@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hv+8Ob8AbpA8Zjqaau5zmLaKbYijfPjZNPekoRBu0Go=",
+  "Hash": "FcOvJTl9dS1kNK5PlnysiaUmZbSqZnewAImEmAZhI2c=",
   "Source": "royaltjänstflytt",
   "BasePath": "_content/royaltjänstflytt",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\13456-987789456.png",
+      "SourceId": "royaltjänstflytt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\",
+      "BasePath": "_content/royaltjänstflytt",
+      "RelativePath": "img/13456-987789456.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\13456-987789456.png"
+    },
+    {
       "Identity": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\about.jpg",
       "SourceId": "royaltjänstflytt",
       "SourceType": "Discovered",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\about.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\background-contracts.webp",
+      "SourceId": "royaltjänstflytt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\",
+      "BasePath": "_content/royaltjänstflytt",
+      "RelativePath": "img/background-contracts.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\background-contracts.webp"
     },
     {
       "Identity": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\blog-1.jpg",
@@ -395,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\portfolio-6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\Royal Tjänst AB420.png",
+      "SourceId": "royaltjänstflytt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\",
+      "BasePath": "_content/royaltjänstflytt",
+      "RelativePath": "img/Royal Tjänst AB420.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Royal Tjänst AB420.png"
     },
     {
       "Identity": "C:\\Users\\Ahmed Atta\\source\\repos\\CleaningProject\\wwwroot\\img\\team-1.jpg",

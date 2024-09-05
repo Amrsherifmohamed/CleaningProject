@@ -64,7 +64,14 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    public IActionResult Dödsbö()
+    {
+        return View();
+    }
+    public IActionResult BortforslingAvSkräp()
+    {
+        return View();
+    }
 
 
 
