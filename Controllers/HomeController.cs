@@ -71,6 +71,10 @@ public class HomeController : Controller
     public IActionResult BortforslingAvSkräp()
     {
         return View();
+    }  
+    public IActionResult Cities()
+    {
+        return View();
     }
 
 
