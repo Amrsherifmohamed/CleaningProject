@@ -34,9 +34,10 @@
     <div class="container py-5">
         <h1 class="mb-4 section-title text-white">Är du i behov av en ordentlig städning?</h1>
         <p class="text-white">Vi på royaltjänstflytt Flytt & Städ är specialister på städning och lokalvård.</p>
-        <a href="#" class="btn btn-primary ">Boka flyttstädning </a>
-        <a href="#" class="btn btn-primary">Boka flytt  </a>
-        <a href="#" class="btn btn-primary">Få KOSTNADSFRI OFFERT!</a>
+        <a asp-Controller ="Home" asp-Action="Cleaning" class="btn btn-primary ">
+            Boka flyttstädning </a>
+            <a asp-Controller="Home" asp-Action="Moving" class="btn btn-primary">Boka flytt  </a>
+        <a asp-Controller="Home" asp-Action="Storage" class="btn btn-primary">Få KOSTNADSFRI OFFERT!</a>
     </div>
 </div>
 <!-- CTA Section End -->
