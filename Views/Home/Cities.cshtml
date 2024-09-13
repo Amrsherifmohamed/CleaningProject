@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-lg-4 col-md-6">
             <ul>
-                <li>Stockholm</li>
+               
                 <li>Göteborg</li>
                 <li>Malmö</li>
                 <li>Uppsala</li>
@@ -114,6 +114,11 @@
                 <li>Grums</li>
                 <li>Trollhättan</li>
                 <li>Floda</li>
+                <li>>KOLMÅRDEN</li>
+                <li>LINKÖPING</li>
+                <li>SÖDERKÖPING</li>
+                <li>KATRINEHOLM</li>
+                <li>Stockholm</li>
             </ul>
         </div>
     </div>
@@ -122,11 +127,11 @@
 <!-- CTA Section Start -->
 <div class="container-fluid bg-service py-5">
     <div class="container py-5">
-     
-    
-        <a href="#" class="btn btn-primary ">Boka flyttstädning </a>
-        <a href="#" class="btn btn-primary">Boka flytt  </a>
-        <a href="#" class="btn btn-primary">Få KOSTNADSFRI OFFERT!</a>
+
+
+        <a asp-Controller="Home" asp-Action="Cleaning" class="btn btn-primary ">Boka flyttstädning </a>
+        <a asp-Controller="Home" asp-Action="Moving" class="btn btn-primary">Boka flytt  </a>
+        <a asp-Controller="Home" asp-Action="Storage" class="btn btn-primary">Få KOSTNADSFRI OFFERT!</a>
     </div>
 </div>
 <!-- CTA Section End -->
@@ -138,7 +143,20 @@
             <div class="row">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="contact-form">
-                        <form>
+                        <iframe id="JotFormIFrame-242544920243553"
+                                title="[Imported Form] flyttning"
+                                onload="window.parent.scrollTo(0,0)"
+                                allowtransparency="true"
+                                allow="geolocation; microphone; camera; fullscreen"
+                                src="https://form.jotform.com/242544920243553"
+                                frameborder="0"
+                                style="min-width:100%;max-width:100%;height:539px;border:none;"
+                                scrolling="no">
+                        </iframe>
+                        <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+                        <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-242544920243553']", "https://form.jotform.com/")</script>
+
+                        @*  <form>
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
                                     <input type="text" class="form-control p-4" id="kvadratmeter" placeholder="Antal kvadratmeter" required="required" data-validation-required-message="Fältet är obligatoriskt" />
@@ -164,7 +182,7 @@
                             <div>
                                 <button class="btn btn-primary btn-block py-3 px-5" type="submit">SKICKA</button>
                             </div>
-                        </form>
+                        </form> *@
                     </div>
                 </div>
                 <div class="col-lg-5" style="min-height: 400px;">
